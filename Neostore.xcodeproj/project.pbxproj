@@ -3,18 +3,113 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EA11652110FA21C632FB669 /* Pods_NeostoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A16D754E83DC3F7BDF18B9 /* Pods_NeostoreTests.framework */; };
+		B349B16250F5DA39DEE1347B /* Pods_Neostore_NeostoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F650BEA2DF2A85DC41CA283E /* Pods_Neostore_NeostoreUITests.framework */; };
+		E326616F9126FDA704E98366 /* Pods_Neostore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F95A25EB9CE7D173D48A8C /* Pods_Neostore.framework */; };
+		F2013537262F16C500BB4F3D /* DeleteCartResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2013536262F16C500BB4F3D /* DeleteCartResponse.swift */; };
+		F203FA9A2601EE2C00B7A018 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203FA992601EE2C00B7A018 /* ForgotPasswordViewController.swift */; };
+		F203FA9C26020E8F00B7A018 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203FA9B26020E8F00B7A018 /* RegisterViewController.swift */; };
+		F205D300261EFB1B00A71E45 /* ResetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F205D2FF261EFB1B00A71E45 /* ResetPasswordViewModel.swift */; };
+		F205D302261F17EF00A71E45 /* ResetPsswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F205D301261F17EF00A71E45 /* ResetPsswordViewController.swift */; };
+		F205D304261F50D900A71E45 /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F205D303261F50D900A71E45 /* MyAccountViewController.swift */; };
+		F205D306261F6D1800A71E45 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F205D305261F6D1800A71E45 /* EditProfileViewController.swift */; };
 		F20AC0BC25FF8D6400A6B6BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20AC0BB25FF8D6400A6B6BA /* AppDelegate.swift */; };
-		F20AC0BE25FF8D6400A6B6BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20AC0BD25FF8D6400A6B6BA /* ViewController.swift */; };
+		F20AC0BE25FF8D6400A6B6BA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20AC0BD25FF8D6400A6B6BA /* LoginViewController.swift */; };
 		F20AC0C125FF8D6400A6B6BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20AC0BF25FF8D6400A6B6BA /* Main.storyboard */; };
 		F20AC0C425FF8D6400A6B6BA /* Neostore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F20AC0C225FF8D6400A6B6BA /* Neostore.xcdatamodeld */; };
-		F20AC0C625FF8D6500A6B6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20AC0C525FF8D6500A6B6BA /* Assets.xcassets */; };
 		F20AC0C925FF8D6500A6B6BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20AC0C725FF8D6500A6B6BA /* LaunchScreen.storyboard */; };
 		F20AC0D425FF8D6500A6B6BA /* NeostoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20AC0D325FF8D6500A6B6BA /* NeostoreTests.swift */; };
 		F20AC0DF25FF8D6500A6B6BA /* NeostoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20AC0DE25FF8D6500A6B6BA /* NeostoreUITests.swift */; };
+		F20AC0EE25FF8DC700A6B6BA /* Gotham-Font in Resources */ = {isa = PBXBuildFile; fileRef = F20AC0ED25FF8DC700A6B6BA /* Gotham-Font */; };
+		F20AC0EF25FF8DC700A6B6BA /* Gotham-Font in Resources */ = {isa = PBXBuildFile; fileRef = F20AC0ED25FF8DC700A6B6BA /* Gotham-Font */; };
+		F20AC0F025FF8DC700A6B6BA /* Gotham-Font in Resources */ = {isa = PBXBuildFile; fileRef = F20AC0ED25FF8DC700A6B6BA /* Gotham-Font */; };
+		F20AC0F225FFC05800A6B6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20AC0F125FFC05700A6B6BA /* Assets.xcassets */; };
+		F20AC0F325FFC05800A6B6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20AC0F125FFC05700A6B6BA /* Assets.xcassets */; };
+		F20AC0F425FFC05800A6B6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20AC0F125FFC05700A6B6BA /* Assets.xcassets */; };
+		F2103BE12615FA9D0057D643 /* ProductQuantity.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2103BE02615FA9D0057D643 /* ProductQuantity.xib */; };
+		F2103BE32615FF4F0057D643 /* ProductRating.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2103BE22615FF4F0057D643 /* ProductRating.xib */; };
+		F214466B2632D5B5002364FD /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F214466A2632D5B5002364FD /* Alert.swift */; };
+		F215FAA52630178E003F89EB /* OrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F215FAA42630178E003F89EB /* OrderResponse.swift */; };
+		F215FAA8263098DD003F89EB /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F215FAA7263098DD003F89EB /* OrderViewModel.swift */; };
+		F215FAAA26309C27003F89EB /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F215FAA926309C27003F89EB /* OrderListViewModel.swift */; };
+		F215FAAD26309D95003F89EB /* OrderListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F215FAAC26309D95003F89EB /* OrderListResponse.swift */; };
+		F215FAAF26309DBF003F89EB /* OrderDatum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F215FAAE26309DBF003F89EB /* OrderDatum.swift */; };
+		F215FAB22630AD2C003F89EB /* OrderDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F215FAB12630AD2C003F89EB /* OrderDetailResponse.swift */; };
+		F215FAB42630AD58003F89EB /* OrderDetailDatum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F215FAB32630AD58003F89EB /* OrderDetailDatum.swift */; };
+		F215FAB62630AD7D003F89EB /* OrderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F215FAB52630AD7D003F89EB /* OrderDetail.swift */; };
+		F215FAB82630ADF6003F89EB /* OrderDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F215FAB72630ADF6003F89EB /* OrderDetailViewModel.swift */; };
+		F22D74E8260B7083003A2A1B /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D74E7260B7083003A2A1B /* HomeScreenViewController.swift */; };
+		F2350AAC2617174B000F2AC0 /* MyOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2350AAB2617174B000F2AC0 /* MyOrderTableViewCell.swift */; };
+		F2350AAE26173299000F2AC0 /* MyOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2350AAD26173299000F2AC0 /* MyOrdersViewController.swift */; };
+		F2350AB026173FFF000F2AC0 /* OrderIDTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2350AAF26173FFF000F2AC0 /* OrderIDTableViewCell.swift */; };
+		F2350AB42617403A000F2AC0 /* OrderIdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2350AB32617403A000F2AC0 /* OrderIdViewController.swift */; };
+		F23D6AE7262D642C0095AA23 /* ListCartResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D6AE6262D642C0095AA23 /* ListCartResponse.swift */; };
+		F23D6AE9262D643D0095AA23 /* ListCartDatum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D6AE8262D643D0095AA23 /* ListCartDatum.swift */; };
+		F23D6AEB262D644D0095AA23 /* ListCartProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D6AEA262D644D0095AA23 /* ListCartProduct.swift */; };
+		F23D6AED262D65530095AA23 /* MyCartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D6AEC262D65530095AA23 /* MyCartViewModel.swift */; };
+		F23F26EF2609D8C2006E2D46 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F26EE2609D8C2006E2D46 /* Post.swift */; };
+		F23F26F1260A43D7006E2D46 /* UserDataToPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F26F0260A43D7006E2D46 /* UserDataToPost.swift */; };
+		F240A92B26147DAA0022E53D /* TableProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F240A92A26147DAA0022E53D /* TableProductListViewController.swift */; };
+		F241CEBC261DFB930064B7A8 /* ForgotPasswordResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F241CEBB261DFB930064B7A8 /* ForgotPasswordResponse.swift */; };
+		F241CEBF261DFFA70064B7A8 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F241CEBE261DFFA70064B7A8 /* ForgotPasswordViewModel.swift */; };
+		F241CEC2261E12490064B7A8 /* RegisterModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F241CEC1261E12490064B7A8 /* RegisterModelView.swift */; };
+		F241CEC4261E23290064B7A8 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F241CEC3261E23290064B7A8 /* StringConstants.swift */; };
+		F247A9CD260E008D002B27BE /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F247A9CC260E008D002B27BE /* ImageConstants.swift */; };
+		F247A9D4260E3E0B002B27BE /* ProductListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F247A9D2260E3E0B002B27BE /* ProductListViewCell.swift */; };
+		F247A9D5260E3E0B002B27BE /* ProductListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F247A9D3260E3E0B002B27BE /* ProductListViewCell.xib */; };
+		F249C6DC26245FCF00CE85D9 /* MyAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F249C6DB26245FCF00CE85D9 /* MyAccountViewModel.swift */; };
+		F249C6DF2624618300CE85D9 /* GetUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F249C6DE2624618300CE85D9 /* GetUserData.swift */; };
+		F249C6E1262461AC00CE85D9 /* Datum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F249C6E0262461AC00CE85D9 /* Datum.swift */; };
+		F249C6E3262461CE00CE85D9 /* UserDatum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F249C6E2262461CE00CE85D9 /* UserDatum.swift */; };
+		F249C6E72624620500CE85D9 /* ProductCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F249C6E62624620500CE85D9 /* ProductCategory.swift */; };
+		F249C6E92624B84500CE85D9 /* Get.swift in Sources */ = {isa = PBXBuildFile; fileRef = F249C6E82624B84500CE85D9 /* Get.swift */; };
+		F251F2E2261CA33800DC1D00 /* HTTPMethodsGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251F2E1261CA33800DC1D00 /* HTTPMethodsGeneral.swift */; };
+		F251F2E4261CBA5F00DC1D00 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251F2E3261CBA5F00DC1D00 /* LoginViewModel.swift */; };
+		F25442EF262E0AC5000207EB /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25442EE262E0AC5000207EB /* UILabel+Extensions.swift */; };
+		F264B1352603A92B0063D08E /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264B1342603A92B0063D08E /* CustomCollectionViewCell.swift */; };
+		F26B379126297327008233E7 /* ProductDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B379026297327008233E7 /* ProductDetailsCollectionViewCell.swift */; };
+		F26B379326297A81008233E7 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B379226297A81008233E7 /* ProductCollectionViewCell.swift */; };
+		F26B3796262985B6008233E7 /* ShowProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B3795262985B6008233E7 /* ShowProductDetails.swift */; };
+		F26B3798262985CC008233E7 /* ProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B3797262985CC008233E7 /* ProductData.swift */; };
+		F26B379A262985E2008233E7 /* ProductImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B3799262985E2008233E7 /* ProductImage.swift */; };
+		F26B379C26298CB7008233E7 /* ProductDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B379B26298CB7008233E7 /* ProductDetailsViewModel.swift */; };
+		F26B379E2629F644008233E7 /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B379D2629F644008233E7 /* RateViewController.swift */; };
+		F26B37A02629F663008233E7 /* BuyNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B379F2629F663008233E7 /* BuyNowViewController.swift */; };
+		F271C1D1260D378800EF8F1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20AC0BB25FF8D6400A6B6BA /* AppDelegate.swift */; };
+		F271C1D2260D378800EF8F1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20AC0BB25FF8D6400A6B6BA /* AppDelegate.swift */; };
+		F271C1DE260D491100EF8F1E /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F271C1DD260D491100EF8F1E /* UITextField+Extension.swift */; };
+		F271C1E0260D495200EF8F1E /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F271C1DF260D495200EF8F1E /* UIButton+Extensions.swift */; };
+		F275886D2622052A000EF4C4 /* EditDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F275886C2622052A000EF4C4 /* EditDetailsViewModel.swift */; };
+		F27588712622268E000EF4C4 /* ImagePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27588702622268E000EF4C4 /* ImagePickerManager.swift */; };
+		F27E4E9626380AAE0037E94F /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E4E9526380AAE0037E94F /* SideMenuViewModel.swift */; };
+		F29D2F7B2626DFA800930FF6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D2F7A2626DFA800930FF6 /* HomeViewModel.swift */; };
+		F29D2F7D2626F67200930FF6 /* MyCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D2F7C2626F67200930FF6 /* MyCartViewController.swift */; };
+		F29D2F7F2626F70100930FF6 /* MyCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D2F7E2626F70100930FF6 /* MyCartTableViewCell.swift */; };
+		F29D2F81262714E000930FF6 /* AddressListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D2F80262714E000930FF6 /* AddressListViewController.swift */; };
+		F29D2F832627150700930FF6 /* AddressListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D2F822627150700930FF6 /* AddressListTableViewCell.swift */; };
+		F29D2F852627326E00930FF6 /* AddAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D2F842627326E00930FF6 /* AddAddressViewController.swift */; };
+		F29D2F8726273A1F00930FF6 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D2F8626273A1F00930FF6 /* ProductDetailsViewController.swift */; };
+		F29D2F8A26274D4100930FF6 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D2F8926274D4100930FF6 /* ProductList.swift */; };
+		F29D2F8C262751BF00930FF6 /* productDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D2F8B262751BF00930FF6 /* productDetails.swift */; };
+		F29D2F8E2627524900930FF6 /* productListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D2F8D2627524900930FF6 /* productListViewModel.swift */; };
+		F2B0846A262B813600BC1BBD /* RateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B08469262B813600BC1BBD /* RateViewModel.swift */; };
+		F2B0846D262B847F00BC1BBD /* RatingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0846C262B847F00BC1BBD /* RatingResponse.swift */; };
+		F2B0846F262B84AA00BC1BBD /* RatingDatum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0846E262B84AA00BC1BBD /* RatingDatum.swift */; };
+		F2B08471262B88E500BC1BBD /* AddToCartResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B08470262B88E500BC1BBD /* AddToCartResponse.swift */; };
+		F2B08474262B8A7800BC1BBD /* BuyNowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B08473262B8A7800BC1BBD /* BuyNowViewModel.swift */; };
+		F2EFE28726315ADB0000057E /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EFE28626315ADB0000057E /* UIImage+Extension.swift */; };
+		F2EFE2892631D61C0000057E /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EFE2882631D61C0000057E /* UIImageView+Extensions.swift */; };
+		F2FA5FD3260CD1FA009BA576 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FA5FD2260CD1FA009BA576 /* SideMenuViewController.swift */; };
+		F2FA5FD5260CD2F4009BA576 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FA5FD4260CD2F4009BA576 /* SideMenuTableViewCell.swift */; };
+		F2FF4BE4261AE1EA009A58EC /* StoreLocatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF4BE3261AE1EA009A58EC /* StoreLocatorTableViewCell.swift */; };
+		F2FF4BE6261AE2EF009A58EC /* StoreLocatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF4BE5261AE2EF009A58EC /* StoreLocatorViewController.swift */; };
+		F2FF4BE8261B68C0009A58EC /* HttpMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF4BE7261B68C0009A58EC /* HttpMethods.swift */; };
+		F2FF4BEB261B93BB009A58EC /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF4BE9261B93BB009A58EC /* UserData.swift */; };
+		F2FF4BEC261B93BB009A58EC /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF4BEA261B93BB009A58EC /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +130,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57FCFB11AEC51FD261284636 /* Pods-Neostore-NeostoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neostore-NeostoreUITests.debug.xcconfig"; path = "Target Support Files/Pods-Neostore-NeostoreUITests/Pods-Neostore-NeostoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		63F95A25EB9CE7D173D48A8C /* Pods_Neostore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neostore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		847E6B10858C55685487FB7C /* Pods-Neostore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neostore.release.xcconfig"; path = "Target Support Files/Pods-Neostore/Pods-Neostore.release.xcconfig"; sourceTree = "<group>"; };
+		97C9DA3A5D8576D6CCE3797C /* Pods-NeostoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeostoreTests.release.xcconfig"; path = "Target Support Files/Pods-NeostoreTests/Pods-NeostoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		A2B79D0ED41FACD62E7EB30C /* Pods-Neostore-NeostoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neostore-NeostoreUITests.release.xcconfig"; path = "Target Support Files/Pods-Neostore-NeostoreUITests/Pods-Neostore-NeostoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D5A16D754E83DC3F7BDF18B9 /* Pods_NeostoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeostoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5C2C453E4B8FCDA6648CBA /* Pods-Neostore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neostore.debug.xcconfig"; path = "Target Support Files/Pods-Neostore/Pods-Neostore.debug.xcconfig"; sourceTree = "<group>"; };
+		F19CF9704CD7132F3678F65F /* Pods-NeostoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeostoreTests.debug.xcconfig"; path = "Target Support Files/Pods-NeostoreTests/Pods-NeostoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2013536262F16C500BB4F3D /* DeleteCartResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteCartResponse.swift; sourceTree = "<group>"; };
+		F203FA992601EE2C00B7A018 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		F203FA9B26020E8F00B7A018 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F205D2FF261EFB1B00A71E45 /* ResetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewModel.swift; sourceTree = "<group>"; };
+		F205D301261F17EF00A71E45 /* ResetPsswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPsswordViewController.swift; sourceTree = "<group>"; };
+		F205D303261F50D900A71E45 /* MyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+		F205D305261F6D1800A71E45 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		F20AC0B825FF8D6400A6B6BA /* Neostore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neostore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20AC0BB25FF8D6400A6B6BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F20AC0BD25FF8D6400A6B6BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F20AC0BD25FF8D6400A6B6BA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F20AC0C025FF8D6400A6B6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F20AC0C325FF8D6400A6B6BA /* Neostore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Neostore.xcdatamodel; sourceTree = "<group>"; };
-		F20AC0C525FF8D6500A6B6BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F20AC0C825FF8D6500A6B6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F20AC0CA25FF8D6500A6B6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F20AC0CF25FF8D6500A6B6BA /* NeostoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeostoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +158,87 @@
 		F20AC0DA25FF8D6500A6B6BA /* NeostoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeostoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20AC0DE25FF8D6500A6B6BA /* NeostoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeostoreUITests.swift; sourceTree = "<group>"; };
 		F20AC0E025FF8D6500A6B6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20AC0ED25FF8DC700A6B6BA /* Gotham-Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Gotham-Font"; sourceTree = "<group>"; };
+		F20AC0F125FFC05700A6B6BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2103BE02615FA9D0057D643 /* ProductQuantity.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductQuantity.xib; sourceTree = "<group>"; };
+		F2103BE22615FF4F0057D643 /* ProductRating.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductRating.xib; sourceTree = "<group>"; };
+		F214466A2632D5B5002364FD /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		F215FAA42630178E003F89EB /* OrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderResponse.swift; sourceTree = "<group>"; };
+		F215FAA7263098DD003F89EB /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		F215FAA926309C27003F89EB /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
+		F215FAAC26309D95003F89EB /* OrderListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListResponse.swift; sourceTree = "<group>"; };
+		F215FAAE26309DBF003F89EB /* OrderDatum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDatum.swift; sourceTree = "<group>"; };
+		F215FAB12630AD2C003F89EB /* OrderDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailResponse.swift; sourceTree = "<group>"; };
+		F215FAB32630AD58003F89EB /* OrderDetailDatum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailDatum.swift; sourceTree = "<group>"; };
+		F215FAB52630AD7D003F89EB /* OrderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetail.swift; sourceTree = "<group>"; };
+		F215FAB72630ADF6003F89EB /* OrderDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailViewModel.swift; sourceTree = "<group>"; };
+		F22D74E7260B7083003A2A1B /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		F2350AAB2617174B000F2AC0 /* MyOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderTableViewCell.swift; sourceTree = "<group>"; };
+		F2350AAD26173299000F2AC0 /* MyOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersViewController.swift; sourceTree = "<group>"; };
+		F2350AAF26173FFF000F2AC0 /* OrderIDTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderIDTableViewCell.swift; sourceTree = "<group>"; };
+		F2350AB32617403A000F2AC0 /* OrderIdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderIdViewController.swift; sourceTree = "<group>"; };
+		F23D6AE6262D642C0095AA23 /* ListCartResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCartResponse.swift; sourceTree = "<group>"; };
+		F23D6AE8262D643D0095AA23 /* ListCartDatum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCartDatum.swift; sourceTree = "<group>"; };
+		F23D6AEA262D644D0095AA23 /* ListCartProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCartProduct.swift; sourceTree = "<group>"; };
+		F23D6AEC262D65530095AA23 /* MyCartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCartViewModel.swift; sourceTree = "<group>"; };
+		F23F26EE2609D8C2006E2D46 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F23F26F0260A43D7006E2D46 /* UserDataToPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataToPost.swift; sourceTree = "<group>"; };
+		F240A92A26147DAA0022E53D /* TableProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableProductListViewController.swift; sourceTree = "<group>"; };
+		F241CEBB261DFB930064B7A8 /* ForgotPasswordResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordResponse.swift; sourceTree = "<group>"; };
+		F241CEBE261DFFA70064B7A8 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		F241CEC1261E12490064B7A8 /* RegisterModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModelView.swift; sourceTree = "<group>"; };
+		F241CEC3261E23290064B7A8 /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		F247A9CC260E008D002B27BE /* ImageConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
+		F247A9D2260E3E0B002B27BE /* ProductListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewCell.swift; sourceTree = "<group>"; };
+		F247A9D3260E3E0B002B27BE /* ProductListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListViewCell.xib; sourceTree = "<group>"; };
+		F249C6DB26245FCF00CE85D9 /* MyAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewModel.swift; sourceTree = "<group>"; };
+		F249C6DE2624618300CE85D9 /* GetUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserData.swift; sourceTree = "<group>"; };
+		F249C6E0262461AC00CE85D9 /* Datum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datum.swift; sourceTree = "<group>"; };
+		F249C6E2262461CE00CE85D9 /* UserDatum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDatum.swift; sourceTree = "<group>"; };
+		F249C6E62624620500CE85D9 /* ProductCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCategory.swift; sourceTree = "<group>"; };
+		F249C6E82624B84500CE85D9 /* Get.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get.swift; sourceTree = "<group>"; };
+		F251F2E1261CA33800DC1D00 /* HTTPMethodsGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethodsGeneral.swift; sourceTree = "<group>"; };
+		F251F2E3261CBA5F00DC1D00 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F25442EE262E0AC5000207EB /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		F264B1342603A92B0063D08E /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		F26B379026297327008233E7 /* ProductDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		F26B379226297A81008233E7 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		F26B3795262985B6008233E7 /* ShowProductDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProductDetails.swift; sourceTree = "<group>"; };
+		F26B3797262985CC008233E7 /* ProductData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductData.swift; sourceTree = "<group>"; };
+		F26B3799262985E2008233E7 /* ProductImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductImage.swift; sourceTree = "<group>"; };
+		F26B379B26298CB7008233E7 /* ProductDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewModel.swift; sourceTree = "<group>"; };
+		F26B379D2629F644008233E7 /* RateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
+		F26B379F2629F663008233E7 /* BuyNowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyNowViewController.swift; sourceTree = "<group>"; };
+		F271C1DD260D491100EF8F1E /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		F271C1DF260D495200EF8F1E /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		F275886C2622052A000EF4C4 /* EditDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDetailsViewModel.swift; sourceTree = "<group>"; };
+		F27588702622268E000EF4C4 /* ImagePickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerManager.swift; sourceTree = "<group>"; };
+		F27E4E9526380AAE0037E94F /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		F29D2F7A2626DFA800930FF6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F29D2F7C2626F67200930FF6 /* MyCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCartViewController.swift; sourceTree = "<group>"; };
+		F29D2F7E2626F70100930FF6 /* MyCartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCartTableViewCell.swift; sourceTree = "<group>"; };
+		F29D2F80262714E000930FF6 /* AddressListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListViewController.swift; sourceTree = "<group>"; };
+		F29D2F822627150700930FF6 /* AddressListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListTableViewCell.swift; sourceTree = "<group>"; };
+		F29D2F842627326E00930FF6 /* AddAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAddressViewController.swift; sourceTree = "<group>"; };
+		F29D2F8626273A1F00930FF6 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		F29D2F8926274D4100930FF6 /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		F29D2F8B262751BF00930FF6 /* productDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productDetails.swift; sourceTree = "<group>"; };
+		F29D2F8D2627524900930FF6 /* productListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productListViewModel.swift; sourceTree = "<group>"; };
+		F2B08469262B813600BC1BBD /* RateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateViewModel.swift; sourceTree = "<group>"; };
+		F2B0846C262B847F00BC1BBD /* RatingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingResponse.swift; sourceTree = "<group>"; };
+		F2B0846E262B84AA00BC1BBD /* RatingDatum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingDatum.swift; sourceTree = "<group>"; };
+		F2B08470262B88E500BC1BBD /* AddToCartResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartResponse.swift; sourceTree = "<group>"; };
+		F2B08473262B8A7800BC1BBD /* BuyNowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyNowViewModel.swift; sourceTree = "<group>"; };
+		F2EFE28626315ADB0000057E /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		F2EFE2882631D61C0000057E /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		F2FA5FD2260CD1FA009BA576 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		F2FA5FD4260CD2F4009BA576 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		F2FF4BE3261AE1EA009A58EC /* StoreLocatorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreLocatorTableViewCell.swift; sourceTree = "<group>"; };
+		F2FF4BE5261AE2EF009A58EC /* StoreLocatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreLocatorViewController.swift; sourceTree = "<group>"; };
+		F2FF4BE7261B68C0009A58EC /* HttpMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethods.swift; sourceTree = "<group>"; };
+		F2FF4BE9261B93BB009A58EC /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		F2FF4BEA261B93BB009A58EC /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F650BEA2DF2A85DC41CA283E /* Pods_Neostore_NeostoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neostore_NeostoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +246,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E326616F9126FDA704E98366 /* Pods_Neostore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +254,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EA11652110FA21C632FB669 /* Pods_NeostoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +262,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B349B16250F5DA39DEE1347B /* Pods_Neostore_NeostoreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		407806513DC589B2A4DDA728 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF5C2C453E4B8FCDA6648CBA /* Pods-Neostore.debug.xcconfig */,
+				847E6B10858C55685487FB7C /* Pods-Neostore.release.xcconfig */,
+				57FCFB11AEC51FD261284636 /* Pods-Neostore-NeostoreUITests.debug.xcconfig */,
+				A2B79D0ED41FACD62E7EB30C /* Pods-Neostore-NeostoreUITests.release.xcconfig */,
+				F19CF9704CD7132F3678F65F /* Pods-NeostoreTests.debug.xcconfig */,
+				97C9DA3A5D8576D6CCE3797C /* Pods-NeostoreTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF41228C35AA1415784AA3DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63F95A25EB9CE7D173D48A8C /* Pods_Neostore.framework */,
+				F650BEA2DF2A85DC41CA283E /* Pods_Neostore_NeostoreUITests.framework */,
+				D5A16D754E83DC3F7BDF18B9 /* Pods_NeostoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F203FA972601ED9B00B7A018 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F20AC0BD25FF8D6400A6B6BA /* LoginViewController.swift */,
+				F203FA992601EE2C00B7A018 /* ForgotPasswordViewController.swift */,
+				F203FA9B26020E8F00B7A018 /* RegisterViewController.swift */,
+				F22D74E7260B7083003A2A1B /* HomeScreenViewController.swift */,
+				F2FA5FD2260CD1FA009BA576 /* SideMenuViewController.swift */,
+				F29D2F7C2626F67200930FF6 /* MyCartViewController.swift */,
+				F29D2F80262714E000930FF6 /* AddressListViewController.swift */,
+				F29D2F842627326E00930FF6 /* AddAddressViewController.swift */,
+				F240A92A26147DAA0022E53D /* TableProductListViewController.swift */,
+				F29D2F8626273A1F00930FF6 /* ProductDetailsViewController.swift */,
+				F26B379F2629F663008233E7 /* BuyNowViewController.swift */,
+				F26B379D2629F644008233E7 /* RateViewController.swift */,
+				F205D303261F50D900A71E45 /* MyAccountViewController.swift */,
+				F205D305261F6D1800A71E45 /* EditProfileViewController.swift */,
+				F205D301261F17EF00A71E45 /* ResetPsswordViewController.swift */,
+				F2350AAD26173299000F2AC0 /* MyOrdersViewController.swift */,
+				F2350AB32617403A000F2AC0 /* OrderIdViewController.swift */,
+				F2FF4BE5261AE2EF009A58EC /* StoreLocatorViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F203FA982601EDC400B7A018 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F271C1D9260D46DD00EF8F1E /* Storyboard */,
+				F271C1D5260D380600EF8F1E /* Cells */,
+				F203FA972601ED9B00B7A018 /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F20AC0AF25FF8D6400A6B6BA = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +334,8 @@
 				F20AC0D225FF8D6500A6B6BA /* NeostoreTests */,
 				F20AC0DD25FF8D6500A6B6BA /* NeostoreUITests */,
 				F20AC0B925FF8D6400A6B6BA /* Products */,
+				407806513DC589B2A4DDA728 /* Pods */,
+				CF41228C35AA1415784AA3DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,10 +353,14 @@
 			isa = PBXGroup;
 			children = (
 				F20AC0BB25FF8D6400A6B6BA /* AppDelegate.swift */,
-				F20AC0BD25FF8D6400A6B6BA /* ViewController.swift */,
-				F20AC0BF25FF8D6400A6B6BA /* Main.storyboard */,
-				F20AC0C525FF8D6500A6B6BA /* Assets.xcassets */,
-				F20AC0C725FF8D6500A6B6BA /* LaunchScreen.storyboard */,
+				F23F26E62609D516006E2D46 /* Models */,
+				F203FA982601EDC400B7A018 /* View */,
+				F271C1C8260D366200EF8F1E /* ViewModels */,
+				F271C1D3260D37CE00EF8F1E /* Utilites */,
+				F271C1D4260D37E800EF8F1E /* Constants */,
+				F271C1DC260D473E00EF8F1E /* Extensions */,
+				F271C1D0260D374600EF8F1E /* Resources */,
+				F20AC0F125FFC05700A6B6BA /* Assets.xcassets */,
 				F20AC0CA25FF8D6500A6B6BA /* Info.plist */,
 				F20AC0C225FF8D6400A6B6BA /* Neostore.xcdatamodeld */,
 			);
@@ -128,6 +385,365 @@
 			path = NeostoreUITests;
 			sourceTree = "<group>";
 		};
+		F20AC0EC25FF8D8700A6B6BA /* font */ = {
+			isa = PBXGroup;
+			children = (
+				F20AC0ED25FF8DC700A6B6BA /* Gotham-Font */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		F215FAA626309897003F89EB /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				F215FAA7263098DD003F89EB /* OrderViewModel.swift */,
+				F215FAA926309C27003F89EB /* OrderListViewModel.swift */,
+				F215FAB72630ADF6003F89EB /* OrderDetailViewModel.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		F215FAAB26309D80003F89EB /* OrderList */ = {
+			isa = PBXGroup;
+			children = (
+				F215FAAC26309D95003F89EB /* OrderListResponse.swift */,
+				F215FAAE26309DBF003F89EB /* OrderDatum.swift */,
+			);
+			path = OrderList;
+			sourceTree = "<group>";
+		};
+		F215FAB02630AD10003F89EB /* OrderDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F215FAB12630AD2C003F89EB /* OrderDetailResponse.swift */,
+				F215FAB32630AD58003F89EB /* OrderDetailDatum.swift */,
+				F215FAB52630AD7D003F89EB /* OrderDetail.swift */,
+			);
+			path = OrderDetail;
+			sourceTree = "<group>";
+		};
+		F23D6AE5262D640A0095AA23 /* ListCartResponse */ = {
+			isa = PBXGroup;
+			children = (
+				F23D6AE6262D642C0095AA23 /* ListCartResponse.swift */,
+				F23D6AE8262D643D0095AA23 /* ListCartDatum.swift */,
+				F23D6AEA262D644D0095AA23 /* ListCartProduct.swift */,
+			);
+			path = ListCartResponse;
+			sourceTree = "<group>";
+		};
+		F23F26E62609D516006E2D46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F271C1D7260D383E00EF8F1E /* Entities */,
+				F271C1D8260D385200EF8F1E /* Services */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F23F26EB2609D892006E2D46 /* http methods */ = {
+			isa = PBXGroup;
+			children = (
+				F23F26EE2609D8C2006E2D46 /* Post.swift */,
+				F2FF4BE7261B68C0009A58EC /* HttpMethods.swift */,
+				F251F2E1261CA33800DC1D00 /* HTTPMethodsGeneral.swift */,
+				F249C6E82624B84500CE85D9 /* Get.swift */,
+			);
+			path = "http methods";
+			sourceTree = "<group>";
+		};
+		F241CEBD261DFF870064B7A8 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				F241CEBE261DFFA70064B7A8 /* ForgotPasswordViewModel.swift */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		F241CEC0261E11020064B7A8 /* ResetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				F205D2FF261EFB1B00A71E45 /* ResetPasswordViewModel.swift */,
+			);
+			path = ResetPassword;
+			sourceTree = "<group>";
+		};
+		F247A9CE260E092E002B27BE /* parameters */ = {
+			isa = PBXGroup;
+			children = (
+				F23F26F0260A43D7006E2D46 /* UserDataToPost.swift */,
+			);
+			path = parameters;
+			sourceTree = "<group>";
+		};
+		F247A9CF260E0944002B27BE /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				F215FAB02630AD10003F89EB /* OrderDetail */,
+				F215FAAB26309D80003F89EB /* OrderList */,
+				F23D6AE5262D640A0095AA23 /* ListCartResponse */,
+				F2B0846B262B845600BC1BBD /* RatingProduct */,
+				F26B37942629857E008233E7 /* ShowProductData */,
+				F29D2F8826274D2600930FF6 /* GetProductList */,
+				F249C6DD2624615400CE85D9 /* GetUserData */,
+				F2FF4BEA261B93BB009A58EC /* Data.swift */,
+				F2FF4BE9261B93BB009A58EC /* UserData.swift */,
+				F241CEBB261DFB930064B7A8 /* ForgotPasswordResponse.swift */,
+				F2B08470262B88E500BC1BBD /* AddToCartResponse.swift */,
+				F2013536262F16C500BB4F3D /* DeleteCartResponse.swift */,
+				F215FAA42630178E003F89EB /* OrderResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		F249C6DA26245FA200CE85D9 /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				F249C6DB26245FCF00CE85D9 /* MyAccountViewModel.swift */,
+			);
+			path = MyAccount;
+			sourceTree = "<group>";
+		};
+		F249C6DD2624615400CE85D9 /* GetUserData */ = {
+			isa = PBXGroup;
+			children = (
+				F249C6DE2624618300CE85D9 /* GetUserData.swift */,
+				F249C6E0262461AC00CE85D9 /* Datum.swift */,
+				F249C6E2262461CE00CE85D9 /* UserDatum.swift */,
+				F249C6E62624620500CE85D9 /* ProductCategory.swift */,
+			);
+			path = GetUserData;
+			sourceTree = "<group>";
+		};
+		F26B37942629857E008233E7 /* ShowProductData */ = {
+			isa = PBXGroup;
+			children = (
+				F26B3795262985B6008233E7 /* ShowProductDetails.swift */,
+				F26B3797262985CC008233E7 /* ProductData.swift */,
+				F26B3799262985E2008233E7 /* ProductImage.swift */,
+			);
+			path = ShowProductData;
+			sourceTree = "<group>";
+		};
+		F271C1C8260D366200EF8F1E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F215FAA626309897003F89EB /* Order */,
+				F2B08472262B8A5800BC1BBD /* BuyNow */,
+				F2B08468262B811A00BC1BBD /* Rate */,
+				F271C1CF260D370600EF8F1E /* Register */,
+				F271C1C9260D367300EF8F1E /* Login */,
+				F241CEBD261DFF870064B7A8 /* ForgotPassword */,
+				F249C6DA26245FA200CE85D9 /* MyAccount */,
+				F275886B262204FE000EF4C4 /* EditUserDetails */,
+				F241CEC0261E11020064B7A8 /* ResetPassword */,
+				F271C1CE260D36E600EF8F1E /* MyCart */,
+				F271C1CD260D36D500EF8F1E /* Product */,
+				F271C1CC260D36BC00EF8F1E /* Product Details */,
+				F271C1CB260D36AA00EF8F1E /* Drawer */,
+				F271C1CA260D369E00EF8F1E /* Home */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F271C1C9260D367300EF8F1E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F251F2E3261CBA5F00DC1D00 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F271C1CA260D369E00EF8F1E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F29D2F7A2626DFA800930FF6 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F271C1CB260D36AA00EF8F1E /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				F27E4E9526380AAE0037E94F /* SideMenuViewModel.swift */,
+			);
+			path = Drawer;
+			sourceTree = "<group>";
+		};
+		F271C1CC260D36BC00EF8F1E /* Product Details */ = {
+			isa = PBXGroup;
+			children = (
+				F26B379B26298CB7008233E7 /* ProductDetailsViewModel.swift */,
+			);
+			path = "Product Details";
+			sourceTree = "<group>";
+		};
+		F271C1CD260D36D500EF8F1E /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				F29D2F8D2627524900930FF6 /* productListViewModel.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		F271C1CE260D36E600EF8F1E /* MyCart */ = {
+			isa = PBXGroup;
+			children = (
+				F23D6AEC262D65530095AA23 /* MyCartViewModel.swift */,
+			);
+			path = MyCart;
+			sourceTree = "<group>";
+		};
+		F271C1CF260D370600EF8F1E /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				F241CEC1261E12490064B7A8 /* RegisterModelView.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		F271C1D0260D374600EF8F1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F20AC0EC25FF8D8700A6B6BA /* font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F271C1D3260D37CE00EF8F1E /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				F27588702622268E000EF4C4 /* ImagePickerManager.swift */,
+				F214466A2632D5B5002364FD /* Alert.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		F271C1D4260D37E800EF8F1E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F271C1DB260D471800EF8F1E /* StringConstants */,
+				F271C1DA260D470900EF8F1E /* ImageConstants */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F271C1D5260D380600EF8F1E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F264B1342603A92B0063D08E /* CustomCollectionViewCell.swift */,
+				F2FA5FD4260CD2F4009BA576 /* SideMenuTableViewCell.swift */,
+				F247A9D2260E3E0B002B27BE /* ProductListViewCell.swift */,
+				F247A9D3260E3E0B002B27BE /* ProductListViewCell.xib */,
+				F2350AAB2617174B000F2AC0 /* MyOrderTableViewCell.swift */,
+				F2350AAF26173FFF000F2AC0 /* OrderIDTableViewCell.swift */,
+				F2FF4BE3261AE1EA009A58EC /* StoreLocatorTableViewCell.swift */,
+				F29D2F7E2626F70100930FF6 /* MyCartTableViewCell.swift */,
+				F29D2F822627150700930FF6 /* AddressListTableViewCell.swift */,
+				F26B379026297327008233E7 /* ProductDetailsCollectionViewCell.swift */,
+				F26B379226297A81008233E7 /* ProductCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F271C1D7260D383E00EF8F1E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F247A9CF260E0944002B27BE /* Response */,
+				F247A9CE260E092E002B27BE /* parameters */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		F271C1D8260D385200EF8F1E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F23F26EB2609D892006E2D46 /* http methods */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F271C1D9260D46DD00EF8F1E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F20AC0C725FF8D6500A6B6BA /* LaunchScreen.storyboard */,
+				F20AC0BF25FF8D6400A6B6BA /* Main.storyboard */,
+				F2103BE02615FA9D0057D643 /* ProductQuantity.xib */,
+				F2103BE22615FF4F0057D643 /* ProductRating.xib */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		F271C1DA260D470900EF8F1E /* ImageConstants */ = {
+			isa = PBXGroup;
+			children = (
+				F247A9CC260E008D002B27BE /* ImageConstants.swift */,
+			);
+			path = ImageConstants;
+			sourceTree = "<group>";
+		};
+		F271C1DB260D471800EF8F1E /* StringConstants */ = {
+			isa = PBXGroup;
+			children = (
+				F241CEC3261E23290064B7A8 /* StringConstants.swift */,
+			);
+			path = StringConstants;
+			sourceTree = "<group>";
+		};
+		F271C1DC260D473E00EF8F1E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F271C1DD260D491100EF8F1E /* UITextField+Extension.swift */,
+				F271C1DF260D495200EF8F1E /* UIButton+Extensions.swift */,
+				F25442EE262E0AC5000207EB /* UILabel+Extensions.swift */,
+				F2EFE28626315ADB0000057E /* UIImage+Extension.swift */,
+				F2EFE2882631D61C0000057E /* UIImageView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F275886B262204FE000EF4C4 /* EditUserDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F275886C2622052A000EF4C4 /* EditDetailsViewModel.swift */,
+			);
+			path = EditUserDetails;
+			sourceTree = "<group>";
+		};
+		F29D2F8826274D2600930FF6 /* GetProductList */ = {
+			isa = PBXGroup;
+			children = (
+				F29D2F8926274D4100930FF6 /* ProductList.swift */,
+				F29D2F8B262751BF00930FF6 /* productDetails.swift */,
+			);
+			path = GetProductList;
+			sourceTree = "<group>";
+		};
+		F2B08468262B811A00BC1BBD /* Rate */ = {
+			isa = PBXGroup;
+			children = (
+				F2B08469262B813600BC1BBD /* RateViewModel.swift */,
+			);
+			path = Rate;
+			sourceTree = "<group>";
+		};
+		F2B0846B262B845600BC1BBD /* RatingProduct */ = {
+			isa = PBXGroup;
+			children = (
+				F2B0846C262B847F00BC1BBD /* RatingResponse.swift */,
+				F2B0846E262B84AA00BC1BBD /* RatingDatum.swift */,
+			);
+			path = RatingProduct;
+			sourceTree = "<group>";
+		};
+		F2B08472262B8A5800BC1BBD /* BuyNow */ = {
+			isa = PBXGroup;
+			children = (
+				F2B08473262B8A7800BC1BBD /* BuyNowViewModel.swift */,
+			);
+			path = BuyNow;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +751,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F20AC0E325FF8D6500A6B6BA /* Build configuration list for PBXNativeTarget "Neostore" */;
 			buildPhases = (
+				D6E7C2B064E977987CE790AE /* [CP] Check Pods Manifest.lock */,
 				F20AC0B425FF8D6400A6B6BA /* Sources */,
 				F20AC0B525FF8D6400A6B6BA /* Frameworks */,
 				F20AC0B625FF8D6400A6B6BA /* Resources */,
+				D578E25289A16DFA399F4FE2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +770,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F20AC0E625FF8D6500A6B6BA /* Build configuration list for PBXNativeTarget "NeostoreTests" */;
 			buildPhases = (
+				022A1C59C28918E552B3558C /* [CP] Check Pods Manifest.lock */,
 				F20AC0CB25FF8D6500A6B6BA /* Sources */,
 				F20AC0CC25FF8D6500A6B6BA /* Frameworks */,
 				F20AC0CD25FF8D6500A6B6BA /* Resources */,
@@ -170,9 +789,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F20AC0E925FF8D6500A6B6BA /* Build configuration list for PBXNativeTarget "NeostoreUITests" */;
 			buildPhases = (
+				B08F51944DAA86EDC35702CF /* [CP] Check Pods Manifest.lock */,
 				F20AC0D625FF8D6500A6B6BA /* Sources */,
 				F20AC0D725FF8D6500A6B6BA /* Frameworks */,
 				F20AC0D825FF8D6500A6B6BA /* Resources */,
+				7D1429545B8DF6B56CCCB5ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,9 +853,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2103BE32615FF4F0057D643 /* ProductRating.xib in Resources */,
+				F2103BE12615FA9D0057D643 /* ProductQuantity.xib in Resources */,
 				F20AC0C925FF8D6500A6B6BA /* LaunchScreen.storyboard in Resources */,
-				F20AC0C625FF8D6500A6B6BA /* Assets.xcassets in Resources */,
+				F247A9D5260E3E0B002B27BE /* ProductListViewCell.xib in Resources */,
 				F20AC0C125FF8D6400A6B6BA /* Main.storyboard in Resources */,
+				F20AC0F225FFC05800A6B6BA /* Assets.xcassets in Resources */,
+				F20AC0EE25FF8DC700A6B6BA /* Gotham-Font in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +867,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20AC0F325FFC05800A6B6BA /* Assets.xcassets in Resources */,
+				F20AC0EF25FF8DC700A6B6BA /* Gotham-Font in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,19 +876,206 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20AC0F425FFC05800A6B6BA /* Assets.xcassets in Resources */,
+				F20AC0F025FF8DC700A6B6BA /* Gotham-Font in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		022A1C59C28918E552B3558C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeostoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D1429545B8DF6B56CCCB5ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neostore-NeostoreUITests/Pods-Neostore-NeostoreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neostore-NeostoreUITests/Pods-Neostore-NeostoreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Neostore-NeostoreUITests/Pods-Neostore-NeostoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B08F51944DAA86EDC35702CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Neostore-NeostoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D578E25289A16DFA399F4FE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neostore/Pods-Neostore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neostore/Pods-Neostore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Neostore/Pods-Neostore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6E7C2B064E977987CE790AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Neostore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F20AC0B425FF8D6400A6B6BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F20AC0BE25FF8D6400A6B6BA /* ViewController.swift in Sources */,
+				F2FF4BE6261AE2EF009A58EC /* StoreLocatorViewController.swift in Sources */,
+				F29D2F852627326E00930FF6 /* AddAddressViewController.swift in Sources */,
+				F26B379326297A81008233E7 /* ProductCollectionViewCell.swift in Sources */,
+				F2350AB42617403A000F2AC0 /* OrderIdViewController.swift in Sources */,
+				F203FA9A2601EE2C00B7A018 /* ForgotPasswordViewController.swift in Sources */,
+				F215FAAD26309D95003F89EB /* OrderListResponse.swift in Sources */,
+				F214466B2632D5B5002364FD /* Alert.swift in Sources */,
+				F2013537262F16C500BB4F3D /* DeleteCartResponse.swift in Sources */,
+				F2FF4BE4261AE1EA009A58EC /* StoreLocatorTableViewCell.swift in Sources */,
+				F29D2F8A26274D4100930FF6 /* ProductList.swift in Sources */,
+				F2B0846A262B813600BC1BBD /* RateViewModel.swift in Sources */,
+				F241CEC4261E23290064B7A8 /* StringConstants.swift in Sources */,
+				F26B3796262985B6008233E7 /* ShowProductDetails.swift in Sources */,
+				F249C6E1262461AC00CE85D9 /* Datum.swift in Sources */,
+				F215FAA8263098DD003F89EB /* OrderViewModel.swift in Sources */,
+				F247A9D4260E3E0B002B27BE /* ProductListViewCell.swift in Sources */,
+				F25442EF262E0AC5000207EB /* UILabel+Extensions.swift in Sources */,
+				F215FAAA26309C27003F89EB /* OrderListViewModel.swift in Sources */,
+				F26B379C26298CB7008233E7 /* ProductDetailsViewModel.swift in Sources */,
+				F29D2F7F2626F70100930FF6 /* MyCartTableViewCell.swift in Sources */,
+				F29D2F8726273A1F00930FF6 /* ProductDetailsViewController.swift in Sources */,
+				F23D6AED262D65530095AA23 /* MyCartViewModel.swift in Sources */,
+				F23D6AEB262D644D0095AA23 /* ListCartProduct.swift in Sources */,
+				F203FA9C26020E8F00B7A018 /* RegisterViewController.swift in Sources */,
+				F26B379A262985E2008233E7 /* ProductImage.swift in Sources */,
+				F249C6E92624B84500CE85D9 /* Get.swift in Sources */,
+				F2EFE28726315ADB0000057E /* UIImage+Extension.swift in Sources */,
+				F241CEBF261DFFA70064B7A8 /* ForgotPasswordViewModel.swift in Sources */,
+				F2B08471262B88E500BC1BBD /* AddToCartResponse.swift in Sources */,
+				F215FAB42630AD58003F89EB /* OrderDetailDatum.swift in Sources */,
+				F251F2E2261CA33800DC1D00 /* HTTPMethodsGeneral.swift in Sources */,
+				F215FAA52630178E003F89EB /* OrderResponse.swift in Sources */,
+				F205D302261F17EF00A71E45 /* ResetPsswordViewController.swift in Sources */,
+				F26B37A02629F663008233E7 /* BuyNowViewController.swift in Sources */,
+				F271C1DE260D491100EF8F1E /* UITextField+Extension.swift in Sources */,
+				F20AC0BE25FF8D6400A6B6BA /* LoginViewController.swift in Sources */,
+				F2FF4BEB261B93BB009A58EC /* UserData.swift in Sources */,
+				F249C6E3262461CE00CE85D9 /* UserDatum.swift in Sources */,
+				F27588712622268E000EF4C4 /* ImagePickerManager.swift in Sources */,
+				F205D306261F6D1800A71E45 /* EditProfileViewController.swift in Sources */,
+				F215FAB22630AD2C003F89EB /* OrderDetailResponse.swift in Sources */,
+				F2FF4BE8261B68C0009A58EC /* HttpMethods.swift in Sources */,
+				F215FAAF26309DBF003F89EB /* OrderDatum.swift in Sources */,
+				F2350AB026173FFF000F2AC0 /* OrderIDTableViewCell.swift in Sources */,
+				F275886D2622052A000EF4C4 /* EditDetailsViewModel.swift in Sources */,
+				F241CEBC261DFB930064B7A8 /* ForgotPasswordResponse.swift in Sources */,
+				F241CEC2261E12490064B7A8 /* RegisterModelView.swift in Sources */,
+				F264B1352603A92B0063D08E /* CustomCollectionViewCell.swift in Sources */,
+				F27E4E9626380AAE0037E94F /* SideMenuViewModel.swift in Sources */,
+				F29D2F8C262751BF00930FF6 /* productDetails.swift in Sources */,
+				F26B3798262985CC008233E7 /* ProductData.swift in Sources */,
+				F249C6DF2624618300CE85D9 /* GetUserData.swift in Sources */,
+				F22D74E8260B7083003A2A1B /* HomeScreenViewController.swift in Sources */,
+				F29D2F81262714E000930FF6 /* AddressListViewController.swift in Sources */,
 				F20AC0BC25FF8D6400A6B6BA /* AppDelegate.swift in Sources */,
+				F23D6AE9262D643D0095AA23 /* ListCartDatum.swift in Sources */,
+				F247A9CD260E008D002B27BE /* ImageConstants.swift in Sources */,
+				F29D2F7B2626DFA800930FF6 /* HomeViewModel.swift in Sources */,
+				F271C1E0260D495200EF8F1E /* UIButton+Extensions.swift in Sources */,
+				F2B08474262B8A7800BC1BBD /* BuyNowViewModel.swift in Sources */,
+				F26B379126297327008233E7 /* ProductDetailsCollectionViewCell.swift in Sources */,
+				F23F26EF2609D8C2006E2D46 /* Post.swift in Sources */,
+				F215FAB82630ADF6003F89EB /* OrderDetailViewModel.swift in Sources */,
+				F29D2F832627150700930FF6 /* AddressListTableViewCell.swift in Sources */,
+				F2FA5FD5260CD2F4009BA576 /* SideMenuTableViewCell.swift in Sources */,
+				F249C6E72624620500CE85D9 /* ProductCategory.swift in Sources */,
+				F251F2E4261CBA5F00DC1D00 /* LoginViewModel.swift in Sources */,
+				F26B379E2629F644008233E7 /* RateViewController.swift in Sources */,
+				F2350AAE26173299000F2AC0 /* MyOrdersViewController.swift in Sources */,
+				F2B0846D262B847F00BC1BBD /* RatingResponse.swift in Sources */,
+				F205D300261EFB1B00A71E45 /* ResetPasswordViewModel.swift in Sources */,
 				F20AC0C425FF8D6400A6B6BA /* Neostore.xcdatamodeld in Sources */,
+				F29D2F7D2626F67200930FF6 /* MyCartViewController.swift in Sources */,
+				F23D6AE7262D642C0095AA23 /* ListCartResponse.swift in Sources */,
+				F2FF4BEC261B93BB009A58EC /* Data.swift in Sources */,
+				F2FA5FD3260CD1FA009BA576 /* SideMenuViewController.swift in Sources */,
+				F249C6DC26245FCF00CE85D9 /* MyAccountViewModel.swift in Sources */,
+				F2B0846F262B84AA00BC1BBD /* RatingDatum.swift in Sources */,
+				F23F26F1260A43D7006E2D46 /* UserDataToPost.swift in Sources */,
+				F2EFE2892631D61C0000057E /* UIImageView+Extensions.swift in Sources */,
+				F2350AAC2617174B000F2AC0 /* MyOrderTableViewCell.swift in Sources */,
+				F205D304261F50D900A71E45 /* MyAccountViewController.swift in Sources */,
+				F215FAB62630AD7D003F89EB /* OrderDetail.swift in Sources */,
+				F29D2F8E2627524900930FF6 /* productListViewModel.swift in Sources */,
+				F240A92B26147DAA0022E53D /* TableProductListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +1083,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F271C1D1260D378800EF8F1E /* AppDelegate.swift in Sources */,
 				F20AC0D425FF8D6500A6B6BA /* NeostoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +1092,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F271C1D2260D378800EF8F1E /* AppDelegate.swift in Sources */,
 				F20AC0DF25FF8D6500A6B6BA /* NeostoreUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +1250,7 @@
 		};
 		F20AC0E425FF8D6500A6B6BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5C2C453E4B8FCDA6648CBA /* Pods-Neostore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +1268,7 @@
 		};
 		F20AC0E525FF8D6500A6B6BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847E6B10858C55685487FB7C /* Pods-Neostore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +1286,7 @@
 		};
 		F20AC0E725FF8D6500A6B6BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19CF9704CD7132F3678F65F /* Pods-NeostoreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +1307,7 @@
 		};
 		F20AC0E825FF8D6500A6B6BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C9DA3A5D8576D6CCE3797C /* Pods-NeostoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +1328,7 @@
 		};
 		F20AC0EA25FF8D6500A6B6BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57FCFB11AEC51FD261284636 /* Pods-Neostore-NeostoreUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +1348,7 @@
 		};
 		F20AC0EB25FF8D6500A6B6BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2B79D0ED41FACD62E7EB30C /* Pods-Neostore-NeostoreUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

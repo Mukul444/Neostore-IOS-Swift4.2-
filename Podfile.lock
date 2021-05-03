@@ -1,0 +1,28 @@
+PODS:
+  - DropDown (2.3.2)
+  - KeychainSwift (13.0.0)
+  - Kingfisher (4.10.1)
+  - SideMenu (5.0.3)
+
+DEPENDENCIES:
+  - DropDown (= 2.3.2)
+  - KeychainSwift (~> 13.0.0)
+  - Kingfisher (~> 4.0)
+  - SideMenu (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - DropDown
+    - KeychainSwift
+    - Kingfisher
+    - SideMenu
+
+SPEC CHECKSUMS:
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
+  KeychainSwift: 23d6c16cbc33f20fafa30c3d783241b4b87d998c
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
+
+PODFILE CHECKSUM: 5acf30ba6c830d93ecc0d7820356c6ef28a8564f
+
+COCOAPODS: 1.8.4
