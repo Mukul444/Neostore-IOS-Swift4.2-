@@ -1,13 +1,22 @@
 # Neostore-IOS-Swift4.2-
 -> NeoStore application perform basic CRUD operations through API call based on swift for IOS Device
+
+
 -> This Project is Implemented useing MVVM(Model-View-ViewModel) Model
+
+
 ->Follwing pod are used in prjoects
+
     pods used for project:- 
     pod 'SideMenu','~> 5.0'
     pod 'KeychainSwift', '~>13.0.0'
     pod 'Kingfisher', '~> 4.0'
     pod 'DropDown', '2.3.2'
+    
+    
 ->Downgrade the pods to swift version 4
+
+
 ->Following are the Screenshots of GUI
 
 
